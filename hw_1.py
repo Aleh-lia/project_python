@@ -16,19 +16,19 @@ from random import randint
 print(f"{'':-^90}")
 print('Задание 1')
 
-# a = int(input('Введите сторону a: '))
-# b = int(input('Введите сторону b: '))
-# c = int(input('Введите сторону c: '))
-#
-# if a < b + c and b < a + c and c < a + b:
-#     if a != b and b != c and c != a:
-#         print('Это треугольник  разносторонний')
-#     elif (a == b and a != c) or (c == b and c != a) or (a == c and a != b):
-#         print('Это треугольник равнобедренный')
-#     elif a == b == c:
-#         print('Это треугольник равносторонний')
-# else:
-#     print('треугольника с такими сторонами не существует')
+a = int(input('Введите сторону a: '))
+b = int(input('Введите сторону b: '))
+c = int(input('Введите сторону c: '))
+
+if a < b + c and b < a + c and c < a + b:
+    if a != b and b != c and c != a:
+        print('Это треугольник  разносторонний')
+    elif (a == b and a != c) or (c == b and c != a) or (a == c and a != b):
+        print('Это треугольник равнобедренный')
+    elif a == b == c:
+        print('Это треугольник равносторонний')
+else:
+    print('треугольника с такими сторонами не существует')
 
 
 
@@ -41,23 +41,23 @@ print('Задание 1')
 print(f"{'':-^90}")
 print('Задание 2')
 
-# max_size = 100000
-# min_size = 0
-# counter = 0
-# while True:
-#     num = int(input(f'Введите любое число от {min_size} до {max_size}: '))
-#     if num >= 0 and num <= 100000:
-#         for i in range(1, num // 1 + 1):
-#             if (num % i == 0):
-#                 counter = counter + 1
-#         if ( counter <= 2):
-#             print("Число простое")
-#             break
-#         else:
-#             print("Число является составным")
-#             break
-#     else:
-#         print('Попрубуйте еще раз')
+max_size = 100000
+min_size = 0
+counter = 0
+while True:
+    num = int(input(f'Введите любое число от {min_size} до {max_size}: '))
+    if num >= 0 and num <= 100000:
+        for i in range(1, num // 1 + 1):
+            if (num % i == 0):
+                counter = counter + 1
+        if ( counter <= 2):
+            print("Число простое")
+            break
+        else:
+            print("Число является составным")
+            break
+    else:
+        print('Попрубуйте еще раз')
 
 
 print(f"{'':-^90}")
