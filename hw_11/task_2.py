@@ -53,8 +53,8 @@ class Matrix:
 
 
 if __name__ == '__main__':
-    matrix_1 = Matrix([[3, 3, 6], [3, 3, 3], [3, 3, 3]])
-    matrix_2 = Matrix([[3, 3, 3], [3, 3, 3], [3, 3, 3]])
+    matrix_1 = Matrix([[9, 8, 6], [5, 6, 3], [1, 3, 7]])
+    matrix_2 = Matrix([[3, 4, 6], [3, 5, 7], [1, 9, 8]])
     matrix_sum = matrix_1 + matrix_2
     print(matrix_sum)
     matrix_sub = matrix_1 - matrix_2
