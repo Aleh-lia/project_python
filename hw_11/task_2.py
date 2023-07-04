@@ -17,7 +17,7 @@ class Matrix:
         return result
 
     def __add__(self, other):
-        """Переопределил метод поэлементного сложения матриц."""
+        """Cложения матриц."""
 
         result = []
         row = []
@@ -29,7 +29,7 @@ class Matrix:
         return Matrix(result)
 
     def __sub__(self, other):
-        """Переопределил метод поэлементного сложения матриц."""
+        """Вычитания матриц."""
 
         result = []
         row = []
